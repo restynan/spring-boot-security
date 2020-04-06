@@ -9,4 +9,12 @@ public class homeController {
     public String  home(){
         return "Welcome";
     }
+    @RequestMapping("/user")
+    public String  user(){
+        return "welcome User";
+    }
+    @RequestMapping("/admin")
+    public String  admin(){
+        return "Welcome admin";
+    }
 }
