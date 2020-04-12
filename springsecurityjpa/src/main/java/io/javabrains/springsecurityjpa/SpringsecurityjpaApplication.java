@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableJpaRepositories(basePackageClasses = UserRepository.class)
-@ComponentScan({"io.javabrains.springsecurityjpa.service","io.javabrains.springsecurityjpa.securityConfig","io.javabrains.springsecurityjpa.repository", "io.javabrains.springsecurityjpa.domain"})
+//@ComponentScan({"io.javabrains.springsecurityjpa.service","io.javabrains.springsecurityjpa.securityConfig","io.javabrains.springsecurityjpa.repository", "io.javabrains.springsecurityjpa.domain"})
 public class SpringsecurityjpaApplication {
 
     public static void main(String[] args) {
